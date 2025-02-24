@@ -5,7 +5,7 @@ date:   2025-02-22
 description: This is a post description for Database Management Systems. Here we will learn, understand and identify the advantages and applications of the modern database systems in our evolving technical world.
 ---
 
-<p class="intro"><span class="dropcap">T</span>he world has now reached a point where technology has become the core that is controlling everything that we use in our day-to-day life. And for technology to work one thing is needed and is also referred now as the new gold that is data. Database system is a collection of interrelated data and a set of programs to access thoes data and playes the key role for managing the data across the industries.</p>
+<p class="intro"><span class="dropcap">T</span>he world has now reached a point where technology has become the core that is controlling everything that we use in our day-to-day life. And for technology to work one thing is needed and is also referred now as the new gold that is data. Database system is a collection of interrelated data and a set of programs to access thoes data and playes the key role for managing the data across the industries. </p>
 
 # Heading 1
 
