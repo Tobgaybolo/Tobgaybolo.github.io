@@ -16,7 +16,28 @@ description: This is a post description for Database Management Systems. Here we
 - Discuss the key responsibilities of database
   administrators. 
 
-<blockquote>Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit amet fermentum. Nulla vitae elit libero, a pharetra augue. Curabitur blandit tempus porttitor. Donec sed odio dui. Cras mattis consectetur purus sit amet fermentum.</blockquote>
+
+#### Lesson 1:
+
+#### What is data?
+-> Data is collection of facts.
+
+#### What is a database system?
+-> Database system is combination of well organized collection of data and a Database Management system.
+
+### Advantages of Database system:
+- Data consistency: ensures an accurate and up-to-date infpormation
+- Scalability and flexibility: supports the increasing amount of data
+- Reduction in data redundancy: avoids duplication and inconsistencies in the data
+- Better security: implements acces controls and authentications
+- Data Abstraction: simplifies data interactions for the end-users while mentaining a complex underlying structure 
+
+
+#### Lesson 2:
+
+### Types od data models:
+- Entity-Relationship Model:
+
 
 Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
 
