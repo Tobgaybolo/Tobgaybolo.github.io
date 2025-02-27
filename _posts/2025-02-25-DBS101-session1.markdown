@@ -35,10 +35,10 @@ description: This is a post description for Database Management Systems. Here we
 
 #### Lesson 2:
 
-#### Types od data models:
+#### Types of data models:
 - Entity-Relationship Model: is a model for identifying entities (like student, car or company) to be represented in the database and representation of how those entities are related.
 
-![ERM](<../ERM pic.png>)
+![Alt text](<../assets/img/ERM pic.png>)
 
 - Semi-structured Data Model: is data that does not conform to a data model but has some structure.
 
