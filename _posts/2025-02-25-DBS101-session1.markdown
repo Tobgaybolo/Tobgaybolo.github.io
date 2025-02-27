@@ -67,3 +67,7 @@ evaluation engine.
 3. Transaction Management: The transaction manager
 consists of the concurrency-control manager and the
 recovery manager
+
+#### Reference
+- Slides
+- https://www.geeksforgeeks.org/
