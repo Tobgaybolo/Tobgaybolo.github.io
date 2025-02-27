@@ -46,11 +46,11 @@ description: This is a post description for Database Management Systems. Here we
 
 - Object Based Data Models: Combination of Object Oriented Programming + Relational database model.
 
-![OBDM](../assets/img/OBDM.png)
+![OBDM](/assets/img/OBDM.png)
 
 - Relational Model: represents data and their relationships through a collection of tables.
 
-![RDM](../assets/img/RDM.png)
+![RDM](/assets/img/RDM.png)
 
 #### How Database systems become easier?
 - In early times DBMS was really difficult to build and maintian, programmers had to knowwhat queries(requests on
