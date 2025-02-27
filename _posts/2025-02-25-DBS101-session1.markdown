@@ -38,19 +38,19 @@ description: This is a post description for Database Management Systems. Here we
 #### Types of data models:
 - Entity-Relationship Model: is a model for identifying entities (like student, car or company) to be represented in the database and representation of how those entities are related.
 
-![Alt text](<../assets/img/ERM pic.png>)
+![ERDM](</assets/img/ERM pic.png>)
 
 - Semi-structured Data Model: is data that does not conform to a data model but has some structure.
 
-![SsDm](../SsDM.png)
+![Ssdm](/assets/img/SsDM.png)
 
 - Object Based Data Models: Combination of Object Oriented Programming + Relational database model.
 
-![OBDM](../OBDM.png)
+![OBDM](../assets/img/OBDM.png)
 
 - Relational Model: represents data and their relationships through a collection of tables.
 
-![RDM](../RDM.png)
+![RDM](../assets/img/RDM.png)
 
 #### How Database systems become easier?
 - In early times DBMS was really difficult to build and maintian, programmers had to knowwhat queries(requests on
