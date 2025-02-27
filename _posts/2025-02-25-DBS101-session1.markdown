@@ -36,7 +36,7 @@ description: This is a post description for Database Management Systems. Here we
 #### Lesson 2:
 
 ### Types od data models:
-- Entity-Relationship Model:
+- Entity-Relationship Model :
 
 
 Nullam quis risus eget urna mollis ornare vel eu leo. Cras mattis consectetur purus sit amet fermentum. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
