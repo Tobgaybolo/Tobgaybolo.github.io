@@ -1,0 +1,142 @@
+---
+layout: post
+title:  "UNIT_2"
+date:   2025-03-22
+Description: After the completion of Unit_1, here we will be going deeper into the concepts of each data models.
+---
+
+<p class="intro"><span class="dropcap">D</span>ata in this world of technology is very important for us as the ones who uses it. Here we will bw learning how to play with data like, design, maintain and also implement data with different implementation models.</p>
+
+### Objective:
+- Understand the principles of data design
+- Design a data base using Entity-Relationship Diagrams(ERDs)
+- Convert ERDs into relational schemas.
+- Understand and apply relational algebras for querying database.
+- ensure dat integrity through primary keys, forign keys, and constriants.
+
+### Lesson 3:
+
+-------------------------------------------------
+
+#### Goal:
+The goal of this lesson will be to introduce the Entity-Relationship Diagram (ERD), a fundamental tool for designing databases. by the end of this lesson, we will be able to explain how ERds works, identify different attributes, map cardinalities between entities, determine primary keys, and remove redundent attributes.
+
+#### Key concepts:
+1. Entity Relationship Diagrams: this datamodel was developed to facilitate database design by allowing specification of an enterprise schema that represents the overall logical structure of a database.
+    - Entity: “thing” or “object” in the real world that is distinguishable from all other objects.
+    - Attributes: are descriptive properties possessed by each entity.
+    - Relationship: is an association among several entities.
+
+2. Primary Key: a key that give unique identification to entities. it makes sure that no two entities have the same values for all attributes.
+
+3. Complex Attributes: these attributes can be simple, composite, derived and multi-valued. we need to understand these to make the database more accurate and more efficient.
+For more info visit: https://www.geeksforgeeks.org/types-of-attributes-in-er-model/
+
+4. Mapping Cardinalities: or cardinality ratios,
+express the number of entities to which another
+entity can be associated via a relationship set.
+![IMG](<../assets/img/Mapping Cardinalitites.png>)
+
+5. Weak Entities: entity type for which key attribute can’t be defined.
+
+#### Why does it matter?
+The ERD is important for visualizing the structure of a database. Its tells us if the database design is logical and efficient.
+
+#### Activity:
+![Alt text](../assets/img/ERD.png)
+
+-------------------------------------------------
+
+### Lesson 4:
+
+-------------------------------------------------
+
+#### Goal:
+Here we will be focusing mainly on understanding the relational modle, which is the foundation of modern database system. After the completion of this lesson we will be able to explain the relational model and also design a relational schemas.
+
+#### Key Concepts:
+1. Relational model: it orginazes data into tables which have rows and columns
+    - relation: table
+    - tuple: row of the table
+    - attribute: column of the table
+
+2. Primary key: is a key that uniquely identifies a single tuple. it make sures that no two rows have the smae values.
+
+3. Foreign key: specifys that an attribute from one relation maps toa tuple in an another ralation.
+
+4. Relational Constriants: 
+    - Domain Constriants: the values must be in a specific domain
+    - Key constirants: makes sure the the primary keys are unique
+    - Refrential integrity: makes sure that the foreign keys refer valid primary keys
+
+5. Schema Diagram: visual representation of the database
+![Alt text](<../assets/img/schema diagram.png>)
+
+#### Why does it matter?
+The relational model is like the backbone of most database systems. it is importtant for understanding the efficiency and how the database are maintained.
+
+#### Activity:
+![Alt text](<../assets/img/schema diagram.png>)
+
+-------------------------------------------------
+
+### Lesson 5:
+
+-------------------------------------------------
+
+#### Goal:
+The goal here is to be able to convert an ERD into a relational schema.
+
+#### Key concepts:
+1. Converting entities to tables: the eitities in the ERD becomes a table, the attributes becomes columns and the primary key becomes the unique identifier.
+
+2. Handling Relationships:
+    - (1:1): the primary key of one table can be foreign key of another
+    - (1:N): the primary key of the the primary key of one table becomes the foreign key of many other table.
+    - (M:N): a new table is created with foreign keys from both entities
+
+3. Specialization/Generalization:
+    - method 1: create separate tables for each entities
+    - method 2: combine attributes into single table
+    - method 3: create a table for the superclass and include attributes from the subclasses
+4. Aggregation: are treated as higher-level entities and no separate table is needed
+
+#### Why does it matter?
+Converting the ERDs into relational schemas is importtant because it ensures that the logical design is correctly implemented in the database system.
+
+### Lesson 6:
+
+-------------------------------------------------
+
+#### Goal:
+The goal is to understand relational algebra, a theoretical foundation for querying relational databases. By the end of this lesson, we will be able to understand and implement the basic ralational algebra operations like selection, projection, union, intersection and join.
+
+#### key constriants:
+1. Relational elgebra:provides a theoretical foundation for ralational database and SQL:
+    - select (σ): filters tuples based on a condition
+    - projection (π): selects specific attributes from a relation
+    - intersection (∩): returns tuples that are common to both relations
+    - difference (-): returns tuples in one relation but not in another
+    - union (∪):combines tuples from two relations
+    - product (×): combines every tuple from one relation with ebery tuple from another relation
+    - join (⋈): combines tuples from two relations based on a condition
+
+2. Extra operators: 
+- Rename (ρ)
+- Assignment (R←S)
+- Duplicate Elimination (δ)
+- Aggregation (γ)
+- Sorting (τ)
+- Division (R÷S)
+
+#### Why does it matter?
+Relational algebra is the foundation for SQL and other query languages. Understanding this helps in writing efficient and accurate database quries.
+
+-------------------------------------------------
+
+### Conclusion:
+After completion of unit 2, I have gained a solid understanding of database systems, from designing ERDs to converting them into relational schemas and querying data with relational algebra. Each concepts are related to one another and at last it showed me how to structure, implement adn interact with database efficiently.
+
+What I found the most interesting was how tools work together. ERDs helped me visualize the database, relational schemas turn that visualizations into reality adn relational algebra gave me the power to retrive and manipulate data. i ahve also learned the importance of keys and consti=riants in maintaing data integrity.
+
+This have given me the confidence to design and work with databases. And I am relieved that if i somehow get to work with database, I can apply what i have learned and continue learning.
