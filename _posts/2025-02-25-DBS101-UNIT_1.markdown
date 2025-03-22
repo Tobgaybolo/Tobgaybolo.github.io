@@ -17,11 +17,11 @@ description: This is a post description for Database Management Systems. Here we
   administrators. 
 
 
-#### Lesson 1:
+### Lesson 1:
 
------------------------------------------------------
+---
 
-#### What is data?
+#### **What is data?**
 -> Data is collection of facts.
 
 #### What is a database system?
