@@ -68,8 +68,7 @@ Here we will be focusing mainly on understanding the relational modle, which is 
 The relational model is like the backbone of most database systems. it is importtant for understanding the efficiency and how the database are maintained.
 
 #### Activity:
-![Alt text](<../assets/img/schema diagram.png>)
-
+![Alt text](../assets/img/schema_diagram.png)
 ---
 
 ### Lesson 5:
