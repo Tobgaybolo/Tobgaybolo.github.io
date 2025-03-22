@@ -12,7 +12,8 @@ Description: After the completion of Unit_1, here we will be going deeper into t
 - Design a data base using Entity-Relationship Diagrams(ERDs)
 - Convert ERDs into relational schemas.
 - Understand and apply relational algebras for querying database.
-- ensure dat integrity through primary keys, forign keys, and constriants.
+- Ensure data integrity through primary keys, forign keys, and constriants.
+
 ---
 
 ### Lesson 3:
