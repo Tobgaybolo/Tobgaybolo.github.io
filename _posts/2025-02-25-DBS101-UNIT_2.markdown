@@ -39,7 +39,7 @@ For more info visit: https://www.geeksforgeeks.org/types-of-attributes-in-er-mod
 The ERD is important for visualizing the structure of a database. Its tells us if the database design is logical and efficient.
 
 #### Activity:
-![Alt text](../assets/img/ERD.png)
+![Alt text](/assets/img/ERD.png)
 
 ---
 
