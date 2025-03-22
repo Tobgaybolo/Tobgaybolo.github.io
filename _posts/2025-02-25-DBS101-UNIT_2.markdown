@@ -62,13 +62,13 @@ Here we will be focusing mainly on understanding the relational modle, which is 
     - Key constirants: makes sure the the primary keys are unique
     - Refrential integrity: makes sure that the foreign keys refer valid primary keys
 5. **Schema Diagram:** visual representation of the database
-![Alt text](<../assets/img/schema diagram.png>)
+![Alt text](/assets/img/schema_diagram.png)
 
 #### Why does it matter?
 The relational model is like the backbone of most database systems. it is importtant for understanding the efficiency and how the database are maintained.
 
 #### Activity:
-![Alt text](../assets/img/schema_diagram.png)
+![Alt text](/assets/img/relational_schema.png)
 ---
 
 ### Lesson 5:
