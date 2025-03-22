@@ -16,7 +16,7 @@ Description: After the completion of Unit_1, here we will be going deeper into t
 
 ### Lesson 3:
 
--------------------------------------------------
+-------------
 
 #### Goal:
 The goal of this lesson will be to introduce the Entity-Relationship Diagram (ERD), a fundamental tool for designing databases. by the end of this lesson, we will be able to explain how ERds works, identify different attributes, map cardinalities between entities, determine primary keys, and remove redundent attributes.
@@ -27,14 +27,13 @@ The goal of this lesson will be to introduce the Entity-Relationship Diagram (ER
     - Attributes: are descriptive properties possessed by each entity.
     - Relationship: is an association among several entities.
 
+
 2. Primary Key: a key that give unique identification to entities. it makes sure that no two entities have the same values for all attributes.
 
 3. Complex Attributes: these attributes can be simple, composite, derived and multi-valued. we need to understand these to make the database more accurate and more efficient.
 For more info visit: https://www.geeksforgeeks.org/types-of-attributes-in-er-model/
 
-4. Mapping Cardinalities: or cardinality ratios,
-express the number of entities to which another
-entity can be associated via a relationship set.
+4. Mapping Cardinalities: or cardinality ratios, express the number of entities to which another entity can be associated via a relationship set.
 ![IMG](<../assets/img/Mapping Cardinalitites.png>)
 
 5. Weak Entities: entity type for which key attribute can’t be defined.
@@ -45,11 +44,15 @@ The ERD is important for visualizing the structure of a database. Its tells us i
 #### Activity:
 ![Alt text](../assets/img/ERD.png)
 
--------------------------------------------------
+-------------
+
+
 
 ### Lesson 4:
 
--------------------------------------------------
+
+
+-------------
 
 #### Goal:
 Here we will be focusing mainly on understanding the relational modle, which is the foundation of modern database system. After the completion of this lesson we will be able to explain the relational model and also design a relational schemas.
@@ -78,11 +81,15 @@ The relational model is like the backbone of most database systems. it is import
 #### Activity:
 ![Alt text](<../assets/img/schema diagram.png>)
 
--------------------------------------------------
+-------------
+
+
 
 ### Lesson 5:
 
--------------------------------------------------
+
+
+-------------
 
 #### Goal:
 The goal here is to be able to convert an ERD into a relational schema.
@@ -104,9 +111,13 @@ The goal here is to be able to convert an ERD into a relational schema.
 #### Why does it matter?
 Converting the ERDs into relational schemas is importtant because it ensures that the logical design is correctly implemented in the database system.
 
+
+
 ### Lesson 6:
 
--------------------------------------------------
+
+
+-------------
 
 #### Goal:
 The goal is to understand relational algebra, a theoretical foundation for querying relational databases. By the end of this lesson, we will be able to understand and implement the basic ralational algebra operations like selection, projection, union, intersection and join.
@@ -132,7 +143,11 @@ The goal is to understand relational algebra, a theoretical foundation for query
 #### Why does it matter?
 Relational algebra is the foundation for SQL and other query languages. Understanding this helps in writing efficient and accurate database quries.
 
--------------------------------------------------
+
+
+---------------
+
+
 
 ### Conclusion:
 After completion of unit 2, I have gained a solid understanding of database systems, from designing ERDs to converting them into relational schemas and querying data with relational algebra. Each concepts are related to one another and at last it showed me how to structure, implement adn interact with database efficiently.
