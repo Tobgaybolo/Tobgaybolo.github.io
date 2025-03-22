@@ -32,7 +32,7 @@ The goal of this lesson will be to introduce the Entity-Relationship Diagram (ER
 3. **Complex Attributes:** these attributes can be simple, composite, derived and multi-valued. we need to understand these to make the database more accurate and more efficient.
 For more info visit: https://www.geeksforgeeks.org/types-of-attributes-in-er-model/
 4. **Mapping Cardinalities:** or cardinality ratios, express the number of entities to which another entity can be associated via a relationship set.
-![IMG](<../assets/img/Mapping Cardinalitites.png>)
+![Alt text](/assets/img/Mapping_Cardinalitites.png)
 5. **Weak Entities:** entity type for which key attribute can’t be defined.
 
 #### Why does it matter?
