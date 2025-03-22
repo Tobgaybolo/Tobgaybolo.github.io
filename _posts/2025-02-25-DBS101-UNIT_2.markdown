@@ -26,8 +26,6 @@ The goal of this lesson will be to introduce the Entity-Relationship Diagram (ER
     - Entity: “thing” or “object” in the real world that is distinguishable from all other objects.
     - Attributes: are descriptive properties possessed by each entity.
     - Relationship: is an association among several entities.
-
-
 2. Primary Key: a key that give unique identification to entities. it makes sure that no two entities have the same values for all attributes.
 
 3. Complex Attributes: these attributes can be simple, composite, derived and multi-valued. we need to understand these to make the database more accurate and more efficient.
@@ -95,6 +93,7 @@ The relational model is like the backbone of most database systems. it is import
 The goal here is to be able to convert an ERD into a relational schema.
 
 #### Key concepts:
+
 1. Converting entities to tables: the eitities in the ERD becomes a table, the attributes becomes columns and the primary key becomes the unique identifier.
 
 2. Handling Relationships:
