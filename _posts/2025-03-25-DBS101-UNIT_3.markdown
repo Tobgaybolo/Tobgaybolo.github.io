@@ -5,13 +5,14 @@ date: 2025-03-25
 Description: Master database fundamental with ACID properties for reliable transactions, querying techniques for data retrival, and advanced aggragations for insightfull analysis.
 --- 
 
-<p class="intro"><span class="dropcap">D</span></p>atabases power modern applications by storing and managing data efficiently. This series covers core concepts like ACID properties for transaction reliability, SQL querying for data retrival, and aggregations for advanced analysis-essential skills for designing and maintaining robust database systems.
+<p class="intro"><span class="dropcap">D</span>atabases power modern applications by storing and managing data efficiently. This series covers core concepts like ACID properties for transaction reliability, SQL querying for data retrival, and aggregations for advanced analysis-essential skills for designing and maintaining robust database systems.</p>
 
 ### Objective:
 - Introduction to foundational consepts for SQL and the ACID properties.
 - Understand how to write basic SQL quries
 - Define database schemas
 - Apply constriants to maintain data integrity
+
 ---
 
 ## Lesson 6:
