@@ -1,0 +1,128 @@
+---
+layout: post
+title: "UNIT_3"
+date: 2025-03-25
+Description: Master database fundamental with ACID properties for reliable transactions, querying techniques for data retrival, and advanced aggragations for insightfull analysis.
+--- 
+
+<p class="intro"><span class="dropcap">D</span></p>atabases power modern applications by storing and managing data efficiently. This series covers core concepts like ACID properties for transaction reliability, SQL querying for data retrival, and aggregations for advanced analysis-essential skills for designing and maintaining robust database systems.
+
+### Objective:
+- Introduction to foundational consepts for SQL and the ACID properties.
+- Understand how to write basic SQL quries
+- Define database schemas
+- Apply constriants to maintain data integrity
+---
+
+## Lesson 6:
+---
+
+### Goal:
+The goal of this lesson is to master SQL foundations and ACID principles to design reliable databases.
+
+### Key Concepts:
+1. **ACID properties in DBMS:**
+    - Atomicity: the entire transaction happens at once or doesn not happen at all.
+    - Consistency: the database must be consistant before and afte rthe transaction
+    - Isolation: multiple transaction occur independently without any interference
+    - Durability: the cahnges of s successful transaction occurs even if the system failure occurs
+2. **SQL in Action: From schema to Quries**
+    - Data types matter: Use varchar(255) for name(variable length)
+    - constraints enforce integrity:
+        ```
+        CREATE TABLE Users (
+            Username varchar(255) PRIMARY KEY,
+            DOB 
+        );
+    - basic quries: retrive male born after 1990:
+        ```
+        SELECT Username, F_Nanem FROM Users
+        WHERE Gender = 'Male' AND DOB > '1990-01-01';
+
+### Why does it matter?
+ACID properties are like the backbone for databases ayatems like banking and healthcare, where data accuracy is non-negotiable.
+
+---
+
+## Lesson 7:
+---
+
+### Goal:
+The goal here is to leverage SQL to filter, join and transform data with precision.
+
+### Key Concepts:
+1. **Precision Filtering:**
+    - Use **LIKE** for pattern matching:
+        ```
+        SELECT * FROM Users WHERE Username LIKE 'User%';
+    - Combine conditions with AND/OR:
+        ```
+        SELECT * FROM Flight
+        WHERE Source = 'Paris' AND (Class_type = 'Economy' OR Distance < 1000);
+2. **Joins: Linking tables intelligently**
+    - Find all tickets booked by male users
+        ```
+        SELECT Ticket.PNR_No, Users.F_Name
+        FROM Ticket 
+        JOIN Users ON Ticket.Booked_by_user = Users.Usename
+        WHERE Users.Gender = 'Male';
+    
+2. **Modifying Structures:**
+    - Add an email column to the Users table:
+        ```
+        ALTER TABLE Users
+        ADD COLUMN Email varchar(255);
+
+### Why does it matter?
+Efficient data retrival and schema are importtant for applications like e-commerce, where user and other data must sync seamlessly.
+
+---
+
+## Lesson 8:
+---
+
+### Goal:
+The goal is to unlock advanced analytics with aggregation, nested queries and transactions
+
+### Key consepts:
+1. **Aggregate Functions:**
+    - Grouping data: calsulate avarage salary bt departmant:
+        ```
+        SELECT dept_name, AVG(salary) AS avg_salary
+        FROM instructor
+        GROUP BY dept_name
+        HAVING AVG(salary) > 42000;
+2. **Subquries: quries within quries**
+    - Compare data hierarchically:
+        ```
+        SELECT name FROM Filght
+        WHERE Filght_no IN(
+            SELECT Flight_no
+            FROM Ticket
+            WHERE Passenger_name IN
+                ( SELECT Passenger_name
+                FROM Ticket
+                WHERE PNR_No = 'PNR123')
+        );
+3. **Window functions: advanced analytics**
+    - rank users bt the number of tickets they have booked:
+        ```
+        SELECT 
+            passenger_name, 
+            COUNT(*) AS num_tickets_booked,
+            RANK() OVER (ORDER BY COUNT(*) DESC) AS booking_rank
+        FROM 
+            Ticket
+        GROUP BY 
+            passenger_name;
+
+### Why does it matter?
+Aggregations and subquries power reports and dashboards, hwile window functions enable complex analyses like running total or ranking
+
+---
+
+## Conclusion:
+These lessons transformed me from a beginner to someone confident in writing SQL quries and designing robust databases. Understanding ACID properties ensures I build reliable systems, while advanced SQL skilles let me manipulate and analyze data efficiently. Whether qurying user data or calculating averages, these lessons are the backbone of my database toolkit. I am excited to apply these skills in the future.
+
+        
+

@@ -16,14 +16,14 @@ Description: After the completion of Unit_1, here we will be going deeper into t
 
 ---
 
-### Lesson 3:
+## Lesson 3:
 
 ---
 
-#### Goal:
+### Goal:
 The goal of this lesson will be to introduce the Entity-Relationship Diagram (ERD), a fundamental tool for designing databases. by the end of this lesson, we will be able to explain how ERds works, identify different attributes, map cardinalities between entities, determine primary keys, and remove redundent attributes.
 
-#### Key concepts:
+### Key concepts:
 1. **Entity Relationship Diagrams:** this datamodel was developed to facilitate database design by allowing specification of an enterprise schema that represents the overall logical structure of a database.
     - Entity: “thing” or “object” in the real world that is distinguishable from all other objects.
     - Attributes: are descriptive properties possessed by each entity.
@@ -35,22 +35,22 @@ For more info visit: https://www.geeksforgeeks.org/types-of-attributes-in-er-mod
 ![Alt text](/assets/img/Mapping_Cardinalitites.png)
 5. **Weak Entities:** entity type for which key attribute can’t be defined.
 
-#### Why does it matter?
+### Why does it matter?
 The ERD is important for visualizing the structure of a database. Its tells us if the database design is logical and efficient.
 
-#### Activity:
+### Activity:
 ![Alt text](/assets/img/ERD.png)
 
 ---
 
-### Lesson 4:
+## Lesson 4:
 
 ---
 
-#### Goal:
+### Goal:
 Here we will be focusing mainly on understanding the relational modle, which is the foundation of modern database system. After the completion of this lesson we will be able to explain the relational model and also design a relational schemas.
 
-#### Key Concepts:
+### Key Concepts:
 1. **Relational model:** it orginazes data into tables which have rows and columns
     - relation: table
     - tuple: row of the table
@@ -64,21 +64,22 @@ Here we will be focusing mainly on understanding the relational modle, which is 
 5. **Schema Diagram:** visual representation of the database
 ![Alt text](/assets/img/schema_diagram.png)
 
-#### Why does it matter?
+### Why does it matter?
 The relational model is like the backbone of most database systems. it is importtant for understanding the efficiency and how the database are maintained.
 
-#### Activity:
+### Activity:
 ![Alt text](/assets/img/relational_schema.png)
----
-
-### Lesson 5:
 
 ---
 
-#### Goal:
+## Lesson 5:
+
+---
+
+### Goal:
 The goal here is to be able to convert an ERD into a relational schema.
 
-#### Key concepts:
+### Key concepts:
 
 1. **Converting entities to tables:** the eitities in the ERD becomes a table, the attributes becomes columns and the primary key becomes the unique identifier.
 2. **Handling Relationships:**
@@ -91,17 +92,17 @@ The goal here is to be able to convert an ERD into a relational schema.
     - method 3: create a table for the superclass and include attributes from the subclasses
 4. **Aggregation:** are treated as higher-level entities and no separate table is needed
 
-#### Why does it matter?
+### Why does it matter?
 Converting the ERDs into relational schemas is importtant because it ensures that the logical design is correctly implemented in the database system.
 
-### Lesson 6:
+## Lesson 6:
 
 ---
 
-#### Goal:
+### Goal:
 The goal is to understand relational algebra, a theoretical foundation for querying relational databases. By the end of this lesson, we will be able to understand and implement the basic ralational algebra operations like selection, projection, union, intersection and join.
 
-#### key constriants:
+### key constriants:
 1. **Relational elgebra:** provides a theoretical foundation for ralational database and SQL:
     - select (σ): filters tuples based on a condition
     - projection (π): selects specific attributes from a relation
@@ -118,12 +119,12 @@ The goal is to understand relational algebra, a theoretical foundation for query
 - Sorting (τ)
 - Division (R÷S)
 
-#### Why does it matter?
+### Why does it matter?
 Relational algebra is the foundation for SQL and other query languages. Understanding this helps in writing efficient and accurate database quries.
 
 ---
 
-### Conclusion:
+## Conclusion:
 After completion of unit 2, I have gained a solid understanding of database systems, from designing ERDs to converting them into relational schemas and querying data with relational algebra. Each concepts are related to one another and at last it showed me how to structure, implement adn interact with database efficiently.
 
 What I found the most interesting was how tools work together. ERDs helped me visualize the database, relational schemas turn that visualizations into reality adn relational algebra gave me the power to retrive and manipulate data. i ahve also learned the importance of keys and consti=riants in maintaing data integrity.

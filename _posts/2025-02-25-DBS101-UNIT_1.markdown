@@ -16,28 +16,32 @@ description: This is a post description for Database Management Systems. Here we
 - Discuss the key responsibilities of database
   administrators. 
 
+---
 
-### Lesson 1:
+## Lesson 1:
 
 ---
 
-#### **What is data?**
+### What is data?
 -> Data is collection of facts.
 
-#### What is a database system?
+### What is a database system?
 -> Database system is combination of well organized collection of data and a Database Management system.
 
-#### Advantages of Database system:
+### Advantages of Database system:
 - Data consistency: ensures an accurate and up-to-date infpormation
 - Scalability and flexibility: supports the increasing amount of data
 - Reduction in data redundancy: avoids duplication and inconsistencies in the data
 - Better security: implements acces controls and authentications
 - Data Abstraction: simplifies data interactions for the end-users while mentaining a complex underlying structure 
 
+---
 
-#### Lesson 2:
+## Lesson 2:
 
-#### Types of data models:
+---
+
+### Types of data models:
 - Entity-Relationship Model: is a model for identifying entities (like student, car or company) to be represented in the database and representation of how those entities are related.
 
 ![ERDM](</assets/img/ERM pic.png>)
@@ -54,11 +58,11 @@ description: This is a post description for Database Management Systems. Here we
 
 ![RDM](/assets/img/RDM.png)
 
-#### How Database systems become easier?
+### How Database systems become easier?
 - In early times DBMS was really difficult to build and maintian, programmers had to knowwhat queries(requests on
 data) the application would execute before they could deploy the data base. But in 1969 the introduction of Edgar F. Codd's Relational model, which uses table and SQL(Sequential Query Language) as query language, made it much easier for the users.
 
-#### Functional Components of a database system:
+### Functional Components of a database system:
 1. Storage Manager: provides the interface between the
 low-level data stored in the database and the
 application programs and queries submitted to the
@@ -70,6 +74,6 @@ evaluation engine.
 consists of the concurrency-control manager and the
 recovery manager
 
-#### Reference
+### Reference
 - Slides
 - https://www.geeksforgeeks.org/
