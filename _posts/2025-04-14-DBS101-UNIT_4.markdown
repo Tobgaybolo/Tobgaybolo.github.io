@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "UNIT_4"
-date: 2025-03-25
+date: 2025-04-14
 Description: In this section, we will be going through the advanced concepts of database management systems (DBMS). These lessons build upon foundational knowledge and introduce more complex topics that are essential for mastering database concepts.
 --- 
+
+<p class="intro"><span class="dropcap">I</span>n this section, we will be going through the advanced concepts of database management systems (DBMS). These lessons build upon foundational knowledge and introduce more complex topics that are essential for mastering database concepts.</p>
 
 ## Lesson 9 
 
