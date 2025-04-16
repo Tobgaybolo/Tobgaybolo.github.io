@@ -14,10 +14,10 @@ Description: In this section, we will be going through the advanced concepts of 
 **Subqueries:**
 - Subqueries, or nested queries, are queries within queries. They allow for more complex data retrieval by enabling the use of the result of one query as a condition for another.
 
-Example:
-SELECT employee_name 
-FROM employees 
-WHERE department_id IN (SELECT department_id FROM departments WHERE location = 'New York');
+- Example: -  
+    SELECT employee_name 
+    FROM employees 
+    WHERE department_id IN (SELECT department_id FROM departments WHERE location = 'New York');
 
 **Joins:**
 - Understanding different types of joins (INNER, LEFT, RIGHT, FULL OUTER) is crucial for combining data from multiple tables.
