@@ -36,7 +36,7 @@ Normalization applies rules (normal forms) to eliminate redundancy and anomalies
 **Key Normal Forms:**
 1. 1NF (First Normal Form) – All attributes must be atomic (indivisible).
 
-Example: Split "address" into street, city, and state columns.
+    Example: Split "address" into street, city, and state columns.
 
 2. 2NF (Second Normal Form) – No partial dependency on a composite key.
 
