@@ -25,26 +25,27 @@ Query performance comparison with and without indexes
 1. Ordered Indices
 Store search key values in sorted order and associate each key with corresponding records. Two main types:
 
-        a. Clustering Index (Primary Index)
+    a. Clustering Index (Primary Index)
 
-        Records are physically stored in the same order as index entries
+    - Records are physically stored in the same order as index entries
 
-        Each entry contains a search key value and pointer to the first matching record
+    - Each entry contains a search key value and pointer to the first matching record
 
-        Typically uses the primary key as the search key
+    - Typically uses the primary key as the search key
 
-        b. Non-clustering Index (Secondary Index)
+    b. Non-clustering Index (Secondary Index)
 
-        Records aren't stored in index order
+    - Records aren't stored in index order
 
-        Each entry contains a search key value and pointers to all matching records
+    - Each entry contains a search key value and pointers to all matching records
 
 2. Hashed Indices
-Values distributed uniformly across buckets via hash functions
 
-Each bucket can hold one or more records
+- Values distributed uniformly across buckets via hash functions
 
-Excellent for equality lookups but doesn't support range queries
+- Each bucket can hold one or more records
+
+- Excellent for equality lookups but doesn't support range queries
 
 #### Index Implementation Techniques
 
@@ -123,29 +124,29 @@ The range of activities involved in extracting data from a database:
 
 #### Key Steps
 1. Parsing and Translation
-- Syntax checking and validation
+    - Syntax checking and validation
 
-- Parse tree generation
+    - Parse tree generation
 
-- Conversion to relational algebra expression
+    - Conversion to relational algebra expression
 
-- View substitution
+    - View substitution
 
-- Creation of query evaluation plan
+    - Creation of query evaluation plan
 
 2. Evaluation
-- Execution of operations in specified order
+    - Execution of operations in specified order
 
-- Pipelining to avoid intermediate disk writes
+    - Pipelining to avoid intermediate disk writes
 
-- Iterator interface (open, get_next, close)
+    - Iterator interface (open, get_next, close)
 
 3. Optimization
-- Choosing least-cost evaluation plan
+    - Choosing least-cost evaluation plan
 
-- Based on data statistics and operation costs
+    - Based on data statistics and operation costs
 
-- Balancing resource consumption vs response time
+    - Balancing resource consumption vs response time
 
 #### Execution Strategies
 **Pipelined Execution**
